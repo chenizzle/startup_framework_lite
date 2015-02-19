@@ -80,31 +80,38 @@ a {
     margin: 20px 0;
     color: #34495e;
     text-align: center;
-
     font-size: 30px;
 }
 #promo {
     margin: 160px 0 70px;
 }
-.title p {
-    
+#promo .title {
+    margin: 0 0 70px;
 }
-.red {
-    color: #e74c3c;
-    font-size: 18px;
-    line-height: 18px;
-    margin: 90px 0 14px;
+#promo .left_content {
+    padding: 140px 0 0;
 }
-.onetimer p {
-    margin: 140px 105px 0 0;
-    width: 220px;
+#promo .left_content p {
     color: #7f8c8d;
     text-align: left;
-
+    padding: 0 80px 0 0;
     font-size: 22px;
     line-height: 32px;
 }
-.text_small {
+#promo .right_content {
+    padding: 100px 0 0;
+}
+#promo .thesis {
+    margin: 0 0 56px 80px;
+}
+#promo .thesis .title {
+    text-align: left;
+    color: #e74c3c;
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0 0 14px;
+}
+#promo .thesis p {
     font-size: 14px;
     color: #95a5a6;
     line-height: 18px;
