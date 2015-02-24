@@ -83,10 +83,29 @@ a {
     font-size: 30px;
 }
 .content {
-    text-align: center;
-    width: 440px;
-    line-height: 30px;
     margin: 0 auto;
+    width: 440px;
+    text-align: center;
+    line-height: 30px;
+}
+.big_icon {
+    display: block;
+    background: url("img/advantages_sprite.png") no-repeat;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    text-indent: 9999px;
+    float: left;
+}
+.big_icon.present {
+    background-position: 0 -100px;
+}
+.big_icon.clock {
+    background-position: 0 -200px;
+}
+.content_wrapper {
+    margin-left: 160px;
+    display: block;
 }
 #promo {
     margin: 160px 0 70px;
@@ -98,9 +117,9 @@ a {
     padding: 140px 0 0;
 }
 #promo .left_content p {
+    padding: 0 80px 0 0;
     color: #7f8c8d;
     text-align: left;
-    padding: 0 80px 0 0;
     font-size: 22px;
     line-height: 32px;
 }
@@ -111,15 +130,15 @@ a {
     margin: 0 0 56px 80px;
 }
 #promo .thesis .title {
-    text-align: left;
+    margin: 0 0 14px;
     color: #e74c3c;
+    text-align: left;
     font-size: 18px;
     line-height: 18px;
-    margin: 0 0 14px;
 }
 #promo .thesis p {
-    font-size: 14px;
     color: #95a5a6;
+    font-size: 14px;
     line-height: 18px;
 }
 #navigation {
@@ -160,19 +179,64 @@ a {
     margin: 0 0 64px;
 }
 #components p {
-    font-size: 18px;
+    margin-bottom: 27px;
     color: #95a5a6;
     text-align: center;
-    margin-bottom: 27px;
+    font-size: 18px;
 }
 #components a {
-    text-decoration: none;
-    font-size: 14px;
-    color: #e74c3c;
-    font-weight: bold;
-    text-transform: uppercase;
     display: inline-block;
+    padding: 0 15px;
     border: 2px #e74c3c solid;
     border-radius: 6px;
-    padding: 0 15px;
+    color: #e74c3c;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+#advantages p {
+    font-size: 18px;
+    color: #7f8c8d;
+    width: 420px;
+    line-height: 30px;
+    text-align: left;
+}
+#advantages .title {
+    width: 400px;
+    text-align: left;
+    color: #2c3e50;
+    line-height: 40px;
+}
+#advantages ul {
+    margin: 0 165px 0 0;
+}
+#advantages ul li {
+    border-bottom: 2px #ecf0f1 solid;
+}
+#advantages ul li:last-child {
+    padding-bottom: 45px;
+    border: none;
+}
+#advantages ul li .title {
+    display: block;
+    margin: 0 0 10px;
+}
+#advantages ul li .content {
+    color: #7f8c8d;
+}
+#advantages .big_icon {
+    margin-top: 20px;
+}
+#advantages ul li a {
+    display: block;
+    overflow: hidden;
+    padding: 45px 0 43px;
+}
+#advantages ul li a:hover {
+    background: #eee;
+}
+
+#advantages ul li a:hover .big_icon {
+    margin-left: 20px;
 }
