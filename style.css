@@ -107,6 +107,27 @@ a {
     margin-left: 160px;
     display: block;
 }
+.try {
+    height: 115px;
+    min-width: 970px;
+    background: #fef9e7;
+}
+.try .title {
+    display: inline-block;
+    font-size: 24px;
+    color: #34495e;
+    padding: 30px 85px 0 300px;
+}
+.try a {
+    display: inline-block;
+    text-decoration: none;
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 6px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: bold;
+}
 #promo {
     margin: 160px 0 70px;
 }
