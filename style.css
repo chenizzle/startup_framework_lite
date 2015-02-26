@@ -90,12 +90,12 @@ a {
 }
 .big_icon {
     display: block;
-    background: url("img/advantages_sprite.png") no-repeat;
+    float: left;
+    overflow: hidden;
     width: 100px;
     height: 100px;
-    overflow: hidden;
+    background: url("img/advantages_sprite.png") no-repeat;
     text-indent: 9999px;
-    float: left;
 }
 .big_icon.present {
     background-position: 0 -100px;
@@ -104,28 +104,30 @@ a {
     background-position: 0 -200px;
 }
 .content_wrapper {
-    margin-left: 160px;
     display: block;
+
+    margin-left: 160px;
 }
 #try {
-    height: 115px;
     min-width: 970px;
+
+    height: 115px;
     background: #fef9e7;
 }
 #try .title {
     display: inline-block;
-    font-size: 24px;
-    color: #34495e;
     padding: 30px 85px 0 300px;
+    color: #34495e;
+    font-size: 24px;
 }
 #try a {
     display: inline-block;
-    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 6px;
     background: #e74c3c;
     color: #fff;
-    border-radius: 6px;
+    text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 15px;
     font-weight: bold;
 }
 #promo {
@@ -217,16 +219,17 @@ a {
     font-size: 14px;
 }
 #advantages p {
-    font-size: 18px;
-    color: #7f8c8d;
     width: 420px;
-    line-height: 30px;
+    color: #7f8c8d;
     text-align: left;
+
+    font-size: 18px;
+    line-height: 30px;
 }
 #advantages .title {
     width: 400px;
-    text-align: left;
     color: #2c3e50;
+    text-align: left;
     line-height: 40px;
 }
 #advantages ul {
@@ -262,44 +265,59 @@ a {
     margin-left: 20px;
 }
 #try {
-    height: 115px;
-    min-width: 970px;
-    background: #fef9e7;
     margin-bottom: 30px;
+    min-width: 970px;
+
+    height: 115px;
+    background: #fef9e7;
 }
 #try .title {
     display: inline-block;
-    font-size: 24px;
-    color: #34495e;
     padding: 30px 85px 0 300px;
+    color: #34495e;
+    font-size: 24px;
 }
 #try a {
     display: inline-block;
-    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
     background: #e74c3c;
     color: #fff;
-    border-radius: 8px;
+    text-decoration: none;
     text-transform: uppercase;
-    padding: 10px 15px;
     font-weight: bold;
 }
 #mail {
-    background: #1abc9c;
     min-width: 970px;
     height: 130px;
+
+    background: #1abc9c;
 }
-#mail .title {
-    font-size: 50px;
+#mail .container {
+    padding: 25px 0 10px;
+
+    width: auto;
+}
+#mail .container input {
+    width: 550px;
+    height: 55px;
+    border: none;
+
+    background: #1abc9c;
     color: #fff;
-    display: inline-block;
-    margin: 45px 370px 0 130px;
+    font-size: 50px;
+    margin: 13px 20px 0 0;
 }
-#mail a {
+#mail .container a {
     display: inline-block;
+    margin-bottom: 5px;
+    padding: 14px 49px;
+    border-radius: 10px;
+    background: #16a085;
+    color: #fff;
     text-decoration: none;
     font-size: 17px;
-    color: #fff;
-    background: #16a085;
-    border-radius: 10px;
-    padding: 20px 50px;
+}
+::-webkit-input-placeholder {
+  color: white;
 }
