@@ -107,18 +107,18 @@ a {
     margin-left: 160px;
     display: block;
 }
-.try {
+#try {
     height: 115px;
     min-width: 970px;
     background: #fef9e7;
 }
-.try .title {
+#try .title {
     display: inline-block;
     font-size: 24px;
     color: #34495e;
     padding: 30px 85px 0 300px;
 }
-.try a {
+#try a {
     display: inline-block;
     text-decoration: none;
     background: #e74c3c;
@@ -260,4 +260,46 @@ a {
 
 #advantages ul li a:hover .big_icon {
     margin-left: 20px;
+}
+#try {
+    height: 115px;
+    min-width: 970px;
+    background: #fef9e7;
+    margin-bottom: 30px;
+}
+#try .title {
+    display: inline-block;
+    font-size: 24px;
+    color: #34495e;
+    padding: 30px 85px 0 300px;
+}
+#try a {
+    display: inline-block;
+    text-decoration: none;
+    background: #e74c3c;
+    color: #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+#mail {
+    background: #1abc9c;
+    min-width: 970px;
+    height: 130px;
+}
+#mail .title {
+    font-size: 50px;
+    color: #fff;
+    display: inline-block;
+    margin: 45px 370px 0 130px;
+}
+#mail a {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 17px;
+    color: #fff;
+    background: #16a085;
+    border-radius: 10px;
+    padding: 20px 50px;
 }
