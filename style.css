@@ -105,12 +105,10 @@ a {
 }
 .content_wrapper {
     display: block;
-
     margin-left: 160px;
 }
 #try {
     min-width: 970px;
-
     height: 115px;
     background: #fef9e7;
 }
@@ -222,7 +220,6 @@ a {
     width: 420px;
     color: #7f8c8d;
     text-align: left;
-
     font-size: 18px;
     line-height: 30px;
 }
@@ -267,18 +264,22 @@ a {
 #try {
     margin-bottom: 30px;
     min-width: 970px;
-
     height: 115px;
     background: #fef9e7;
 }
+#try .container {
+    padding: 0 0 10px;
+    width: auto;
+}
 #try .title {
     display: inline-block;
-    padding: 30px 85px 0 300px;
     color: #34495e;
     font-size: 24px;
 }
 #try a {
     display: inline-block;
+    float: right;
+    margin: 40px 350px 0 0;
     padding: 10px 15px;
     border-radius: 8px;
     background: #e74c3c;
@@ -290,27 +291,28 @@ a {
 #mail {
     min-width: 970px;
     height: 130px;
-
     background: #1abc9c;
 }
 #mail .container {
     padding: 25px 0 10px;
-
     width: auto;
 }
 #mail .container input {
+    float: left;
+    margin: 18px 0 0 130px;
+
     width: 550px;
     height: 55px;
+    outline: none;
     border: none;
-
     background: #1abc9c;
     color: #fff;
     font-size: 50px;
-    margin: 13px 20px 0 0;
 }
 #mail .container a {
-    display: inline-block;
-    margin-bottom: 5px;
+    display: block;
+    float: right;
+    margin: 22px 130px 0 0;
     padding: 14px 49px;
     border-radius: 10px;
     background: #16a085;
@@ -320,4 +322,11 @@ a {
 }
 ::-webkit-input-placeholder {
   color: white;
+}
+#mail .container input:focus::-webkit-input-placeholder {
+  color: #23ccab;
+}
+#nature {
+    background: url("img/nature.jpg") no-repeat;
+    width:  980px;    
 }
