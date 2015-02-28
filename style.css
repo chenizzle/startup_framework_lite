@@ -292,6 +292,7 @@ a {
     min-width: 970px;
     height: 130px;
     background: #1abc9c;
+    margin: 0 0 30px;
 }
 #mail .container {
     padding: 25px 0 10px;
@@ -327,6 +328,39 @@ a {
   color: #23ccab;
 }
 #nature {
+    margin: 0 0 30px;
+    width: 1200px;
+    height: 800px;
     background: url("img/nature.jpg") no-repeat;
-    width:  980px;    
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+    background-position: center;
+}
+#footer {
+    padding: 0 0 50px;
+    background: #f2f3f4;
+}
+#footer img {
+    margin: 104px 635px 127px;
+}
+#footer .title {
+    color: 1b1f23;
+    font-size: 46px;
+    margin: 0;
+}
+#footer p {
+    font-size: 20px;
+    color: #7e7e7e;
+    line-height: 31px;
+    width: 460px;
+    text-align: center;
+    margin: 47px 415px 93px;
+}
+#footer a {
+    text-decoration: underline;
+    color: #1b1f23;
+    font-size: 22px;
+    text-align: center;
 }
