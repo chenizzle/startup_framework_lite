@@ -332,11 +332,13 @@ a {
     width: 1200px;
     height: 800px;
     background: url("img/nature.jpg") no-repeat;
-    -moz-background-size: 100%; /* Firefox 3.6+ */
-    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
-    -o-background-size: 100%; /* Opera 9.6+ */
-    background-size: 100%; /* Современные браузеры */
     background-position: center;
+}
+#nature p {
+    font-size: 46px;
+    color: #ffffff;
+    border: 8px solid #fff;
+    margin: 10px 10px;
 }
 #footer {
     padding: 0 0 50px;
