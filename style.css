@@ -107,6 +107,12 @@ a {
     display: block;
     margin-left: 160px;
 }
+.nature_bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
 #try {
     min-width: 970px;
     height: 115px;
@@ -329,16 +335,27 @@ a {
 }
 #nature {
     margin: 0 0 30px;
-    width: 1200px;
     height: 800px;
-    background: url("img/nature.jpg") no-repeat;
-    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+#nature .container {
+    position: relative;
 }
 #nature p {
     font-size: 46px;
     color: #ffffff;
     border: 8px solid #fff;
-    margin: 10px 10px;
+    margin: 385px auto 0;
+    width: 360px;
+    padding: 35px 35px;
+}
+#nature a{
+    display: block;
+    background: url("/img/arrow.png");
+    width: 54px;
+    height: 54px;
+    margin: 180px auto 0px;
 }
 #footer {
     padding: 0 0 50px;
@@ -365,4 +382,10 @@ a {
     color: #1b1f23;
     font-size: 22px;
     text-align: center;
+}
+#phone {
+    width: 245px;
+    height: 526px;
+    background: url("img/iphone.jpg");
+    padding: 88px 24px 0;
 }
