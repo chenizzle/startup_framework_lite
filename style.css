@@ -389,3 +389,10 @@ a {
     background: url("img/iphone.jpg");
     padding: 88px 24px 0;
 }
+#phone img {
+    display: none;
+}
+#phone .visible {
+    display: block;
+}
+

@@ -4,6 +4,8 @@
         <meta charset="utf-8">
         <title>Site</title>
         <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+        <script type="text/javascript" src="script.js"></script>
     </head>
     <body>
         <nav id="navigation">
@@ -60,9 +62,9 @@
                 <div class="box two_third">
                     <div class="title">The Second Sneak-Peek of Startup Design Framework</div>
                     <p>You can decide whether to create your site using UI Kit blocks or samples.</p>
-                    <ul>
+                    <ul id="change_screen">
                         <li>
-                            <a href="#">
+                            <a href="#" class="selected_chat">
                                 <span class="big_icon chat">Chat</span>
                                 <span class="content_wrapper">
                                     <span class="title">Easy to use</span>
@@ -71,7 +73,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" class="selected_present">
                                 <span class="big_icon present">Present</span>
                                 <span class="content_wrapper">
                                     <span class="title">Feel our design</span>
@@ -80,7 +82,7 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#">
+                            <a href="#" class="selected_clock">
                                 <span class="big_icon clock">Clock</span>
                                 <span class="content_wrapper">
                                     <span class="title">Variety of designs</span>
@@ -92,7 +94,10 @@
                 </div>
                 <div class="box one_third">
                     <div id="phone">
-                        <img src="img/img_1.jpg">
+                        <img src="img/img_1.jpg" class="visible" id="main_image">
+                        <img src="img/img_2.jpg" id="selected_chat">
+                        <img src="img/img_3.jpg" id="selected_present">
+                        <img src="img/img_4.jpg" id="selected_clock">
                     </div>
                 </div>
             </div>
